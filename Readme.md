@@ -51,5 +51,8 @@ Commits, Referenzen, Verzweigungen und Zusammenführungen visualisieren.
   $timestampArchiv = Get-Date -Format 'yyyy-MMM-dd' # 2018-Okt-11
   $thema = "ordnerpaket-Entwicklung"           # Thema
   $archiv = "archiv"
+  if(test-path "./$archiv/$timestampArchiv-$thema.zip"){
+    rm "./$archiv/$timestampArchiv-$thema.zip" -force -recurse
+  }
   ls ./ | Compress-Archive -Update -dest "./$archiv/$timestampArchiv-$thema.zip" # Komprimieren
 ~~~
