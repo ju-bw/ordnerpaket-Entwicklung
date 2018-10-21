@@ -24,6 +24,10 @@ Git: <https://git-scm.com/downloads>
 
 ## neues Repository auf github anlegen
 
+Commits, Referenzen, Verzweigungen und Zusammenführungen visualisieren.
+
+**GitViz** <https://github.com/Readify/GitViz/releases>
+
 ~~~
   # https://github.com/new
   # github: Create a new repository
@@ -38,7 +42,7 @@ Git: <https://git-scm.com/downloads>
   git status
   git pull
   git push
-  git status
+  git log --oneline
 ~~~
 
 ## Zip
