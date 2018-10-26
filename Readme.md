@@ -1,6 +1,6 @@
 # Readme
 
-% ju -- https://bw1.eu -- 10-Okt-18  -- Readme.md
+% ju -- https://bw1.eu -- 26-Okt-18  -- Readme.md
 
 ## Hinweis
 
@@ -43,6 +43,8 @@ Commits, Referenzen, Verzweigungen und Zusammenführungen visualisieren.
   git pull
   git push
   git log --oneline
+  git log --graph --oneline --decorate --pretty=format:"%ad; %h; %s" --no-merges --date=short > log.txt
+  git log --oneline --decorate --pretty=format:"%ad;%h;%s" --no-merges --date=short > log.csv 
 ~~~
 
 ## Zip
