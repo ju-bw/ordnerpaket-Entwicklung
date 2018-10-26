@@ -3,7 +3,7 @@
 # !file.md = Ausnahme, wird versioniert
 
 !.gitignore
-
+log.txt
 *.exe
 *.x
 
