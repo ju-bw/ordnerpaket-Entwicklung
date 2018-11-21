@@ -42,8 +42,8 @@ Commits, Referenzen, Verzweigungen und Zusammenführungen visualisieren.
   git status
   git pull
   git push
-  git log --oneline  # less beenden mit <Shift+q>
-  git log --graph --oneline 
+  #git log --oneline  # less beenden mit <Shift+q>
+  #git log --graph --oneline 
   git log --graph --pretty=format:";  %cn;  %h;  %ad;  %s" --date=relative > log.txt
 ~~~
 
